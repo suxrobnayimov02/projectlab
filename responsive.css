@@ -1,0 +1,175 @@
+@media screen and (max-width:992px){
+    .container, .responsive-media, .portfolio-list,
+    .about-us-text, .accordion, .services-items,
+    .vacancies-list, .news-list, .portfolio-list img,
+    .connect-info  {
+        width: auto;
+    }
+    .auto-layout-text {
+        width: 20%;
+    }
+    .about-us-text, .vacancies-list p, .news-list h4,
+    .web-dev-text  {
+        text-align: justify;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about-text h3 {
+        text-align: center;
+    }
+    .navbar-link, .connect-text img {
+        display: none;
+    }
+    .navbar-langue, .hamburger, .about, .portfolio-items,
+    .connect-items {
+        display: block;
+    }
+    .connect-text {
+        margin: 0px ;
+        text-align: center;
+    }
+    .services-items, .news-list, .normative-lis{
+        height: auto;
+    }
+    .portfolio-list {
+        margin: 40px 0;
+    }
+    .portfolio-text1 h4, .portfolio-text2 h4 {
+        left: 116px;
+        top: 180px;
+    }
+    .portfolio-text1 h5, .portfolio-text2 h5 {
+        left: 116px;
+        top: 247px;
+    }
+    .about-image img {
+        width: 90%;
+        text-align: center;
+        margin: 40px 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .logo-homePage {
+        display: none;
+    }
+    .logo-responsive {
+        display: block;
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .navbar-text {
+        display: grid;
+    }
+    .about {
+        padding: 0;
+    }
+    .navbar-two {
+        height: auto;
+    }
+    .nav-gradient {
+        height: 100%;
+    }
+    .gradient-bac {
+        height: auto;
+    }
+    .overlay-image {
+        height: 250px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .overlay-icon-items {
+        width: 90%;
+        margin: 0 auto;
+        height: 250px;
+    }
+    .overlay-icon-list {
+        height: 250px;
+    }
+    .information-sign, .navbar-logo, .portfolio-text1 h4,
+    .portfolio-text1 h5, .portfolio-text2 h4,
+    .portfolio-text2 h5  {
+        display: none;
+    }
+    .border-l {
+        border: none;
+    }
+    .information-text, .nav_text {
+        font-size: 35px;
+    }
+    .contact {
+        margin-top: 20px;
+    }
+    .download-btn {
+        width: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .information-text {
+        padding: 40px 0;
+    }
+    .footer-list, .managenet-items, .about-items,
+    .project-list {
+        display: block;
+    }
+    .project-title, .portfolio-list  {
+        width: auto;
+    }
+    .portfolio-list img {
+        width: 90%;
+    }
+    .projectimage-opacity img {
+        width: auto;
+    }
+    .btn-submit, .news-btn {
+        width: auto;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .accordion-body {
+        text-align: justify;
+    }
+    .footer-logo {
+        width: auto;
+        margin: 0 auto;
+        text-align: start;
+    }
+    .nav-title {
+        padding-bottom: 50px;
+    }
+    .news-list, .project-image {
+        width: 100%;
+    }
+    .project-image {
+        margin: 40px 0;
+    }
+    .undp-logo-img img{
+        width: 85%;
+    }
+    .management-list, .about-list {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .management-list img, .about-list img {
+        text-align: center;
+        width: 100%;
+    }
+    ul {
+        padding: 0px;
+    }
+    .auto-layout-list {
+        width: auto;
+    }
+    .auto-layout-text {
+        width: 50%;
+        margin: 40px 0;
+    }
+    .line1, .line2, .line3, .line4 {
+       margin: 12px auto;
+    }
+}
+
