@@ -853,7 +853,9 @@ option {
 .vacancies-list {
     flex-flow: wrap;
     display: flex;
+    align-items: stretch;
     width: 31%;
+    height: 400px;
     background: #FFFFFF;
     box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.09);
     border-radius: 4px;
@@ -913,7 +915,6 @@ option {
     font-weight: 600;
     line-height: 1.7;
     margin-top: 20px;
-    margin-bottom: 80px;
 }
 .vacancies-submit {
     text-align: center;
@@ -927,7 +928,7 @@ option {
     color: #004A80;
     border-radius: 3px;
     margin: 40px 0px 70px 0px;
-    width: 183px;
+    width: 210px;
     transition: all 0.3s ease-in;
 }
 .vacancies-submit:hover {
@@ -941,7 +942,7 @@ option {
     display: inline-block;
     align-items: center;
     position: relative;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .vacancies-submit span:after {
@@ -968,6 +969,9 @@ option {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.vacancies-date span {
+    margin-left: 30px;
 }
 .vacancies-date h5, .vacancies-date p {
     font-size: 16px;
@@ -999,6 +1003,7 @@ input {
   
 }
 .connect-info {
+    text-align: end;
     width: 538px;
     background-color: #F2FAFF;  
     padding: 20px 30px;
@@ -1014,7 +1019,7 @@ input {
     line-height: 1.5;
     color: #002540;
     padding: 20px 0px;
-  
+    text-align: left;
 }
 .connect-info input{
     width: 100%;
@@ -1036,22 +1041,22 @@ input {
     border-radius: 4px;
     padding: 13px 32px 14px;
     color: white;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
     margin: 30px 0;
     cursor: pointer;
+    border: 2px solid #00264D;
+    text-align: end;
 }
 .btn-submit span {
     cursor: pointer;
     display: inline-block;
     align-items: center;
     position: relative;
-    transition: all 0.3s ease-in;
 }
 .btn-submit:hover{
     background-color: transparent;
     color: #002540;
     border: 2px solid #002540;
-    transition: all .3s ease-in;
 }
 
   
@@ -1281,7 +1286,9 @@ input {
   opacity: 1;
   right: 0;
 }
-
+.management {
+    margin-bottom: 100px;
+}
 .managenet-items {
     display: flex;
     justify-content: space-between;
