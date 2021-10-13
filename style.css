@@ -1530,9 +1530,68 @@ input {
 #scroll-to-top:hover svg{
     color: #fff;
 }
-
-
-
+.nav-opendata, .nav-opendata-gradient {
+    height: 600px;
+}
+.openData-begin {
+    margin: 40px auto;
+    padding: 50px 40px;
+    background-color: #f5f8fb;
+}
+.openData-items {
+    display: flex;
+    align-items: center;
+}
+.openData-data {
+    background-color: #1f3c88;
+    color: white;
+    padding: 10px 0px;
+    width: 120px;
+    text-align: center;
+    border-radius: 7px;
+}
+.date-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+.month-text {
+    font-size: 14px;
+    font-weight: 600;
+}
+.year-text {
+    font-size: 13px;
+}
+.openData-list {
+    padding-left: 50px;
+}
+.openData-list h4 {
+    font-size: 19px;
+    color: #002540;
+    margin: 0;
+    line-height: 26px;
+    font-weight: 600;
+}
+.openData-list-title {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #003860;
+}
+.fa-eye {
+    margin-bottom: 2rem!important;
+    color: #002540;
+}
+.eye-span {
+    color: #002540;
+    padding-left: 7px;
+}
+.openData-downloadBtn {
+    display: block;
+    text-align: end;
+    color: #0061a7;
+    font-size: 20px;
+}
 
 
 

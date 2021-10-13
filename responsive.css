@@ -188,5 +188,26 @@
     iframe {
         height: 250px;
     }
+    .nav-opendata-gradient {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .nav-opendata {
+        height: auto;
+    }
+    .openData-begin {
+        padding:20px 10px;
+        height: auto;
+        margin: 20px auto;
+    }
+    .openData-items {
+        display: block;
+    }
+    .openData-list {
+        padding: 0;
+    }
+    .openData-data {
+        margin: 0 auto 20px auto;
+    }
 }
 
