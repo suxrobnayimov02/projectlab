@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Yangiliklar</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link
 		href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap"
@@ -121,7 +122,7 @@
 			<div class="news-package">
 				<div class="news-items">
 					<div class="news-list" data-aos="zoom-out-in">
-						<img class="news-list-image" src="img/image1.png" alt="image1">
+						<img class="news-list-image" onclick="onClick(this)" src="img/image1.png" alt="image1">
 						<div class="numbers-section">
 							<div class="calendar">
 								<img src="img/calendar.png" alt="calendar">
@@ -135,7 +136,7 @@
 						<h4>Сегодня в Навои запустили моноцентр</h4>
 					</div>
 					<div class="news-list" data-aos="zoom-out-in">
-						<img class="news-list-image" src="img/image2.png" alt="image1">
+						<img class="news-list-image" onclick="onClick(this)" src="img/image2.png" alt="image1">
 						<div class="numbers-section">
 							<div class="calendar">
 								<img src="img/calendar.png" alt="calendar">
@@ -149,7 +150,7 @@
 						<h4>Вазир ўринбосари Наманганда</h4>
 					</div>
 					<div class="news-list" data-aos="zoom-out-in">
-						<img class="news-list-image" src="img/image3.png" alt="image1">
+						<img class="news-list-image" onclick="onClick(this)" src="img/image3.png" alt="image1">
 						<div class="numbers-section">
 							<div class="calendar">
 								<img src="img/calendar.png" alt="calendar">
@@ -163,7 +164,7 @@
 						<h4>Муборак туманида сайёр қабул ташкил этилди</h4>
 					</div>
 					<div class="news-list" data-aos="zoom-out-in">
-						<img class="news-list-image" src="img/image4.png" alt="image1">
+						<img class="news-list-image" onclick="onClick(this)" src="img/image4.png" alt="image1">
 						<div class="numbers-section">
 							<div class="calendar">
 								<img src="img/calendar.png" alt="calendar">
@@ -177,7 +178,7 @@
 						<h4>Булоқбоши тумани фуқаролари билан сайёр қабул</h4>
 					</div>
 					<div class="news-list" data-aos="zoom-out-in">
-						<img class="news-list-image" src="img/image5.png" alt="image1">
+						<img class="news-list-image" onclick="onClick(this)" src="img/image5.png" alt="image1">
 						<div class="numbers-section">
 							<div class="calendar">
 								<img src="img/calendar.png" alt="calendar">
@@ -191,7 +192,7 @@
 						<h4>30 июль — Халқлар дўстлиги куни</h4>
 					</div>
 					<div class="news-list" data-aos="zoom-out-in">
-						<img class="news-list-image" src="img/image6.png" alt="image1">
+						<img class="news-list-image" onclick="onClick(this)" src="img/image6.png" alt="image1">
 						<div class="numbers-section">
 							<div class="calendar">
 								<img src="img/calendar.png" alt="calendar">
@@ -205,7 +206,7 @@
 						<h4>Бандлик ва меҳнат муносабатлари вазирлигида ЕХҲТнинг Ўзбекистондаги лойиҳалар...</h4>
 					</div>
 					<div class="news-list" data-aos="zoom-out-in">
-						<img class="news-list-image" src="img/image7.png" alt="image1">
+						<img class="news-list-image" onclick="onClick(this)" src="img/image7.png" alt="image1">
 						<div class="numbers-section">
 							<div class="calendar">
 								<img src="img/calendar.png" alt="calendar">
@@ -219,7 +220,7 @@
 						<h4>Нукус шаҳрида "Ишга марҳамат" мономаркази очилди</h4>
 					</div>
 					<div class="news-list" data-aos="zoom-out-in">
-						<img class="news-list-image" src="img/image8.png" alt="image1">
+						<img class="news-list-image" onclick="onClick(this)" src="img/image8.png" alt="image1">
 						<div class="numbers-section">
 							<div class="calendar">
 								<img src="img/calendar.png" alt="calendar">
@@ -233,7 +234,7 @@
 						<h4>Эркин Мухитдинов Бағдод туманида</h4>
 					</div>
 					<div class="news-list" data-aos="zoom-out-in">
-						<img class="news-list-image" src="img/image9.png" alt="image1">
+						<img class="news-list-image" onclick="onClick(this)" src="img/image9.png" alt="image1">
 						<div class="numbers-section">
 							<div class="calendar">
 								<img src="img/calendar.png" alt="calendar">
@@ -247,7 +248,7 @@
 						<h4>Вазирнинг биринчи ўринбосари Фарғонада</h4>
 					</div>
 					<div class="news-list" data-aos="zoom-out-in">
-						<img class="news-list-image" src="img/image10.png" alt="image1">
+						<img class="news-list-image" onclick="onClick(this)" src="img/image10.png" alt="image1">
 						<div class="numbers-section">
 							<div class="calendar">
 								<img src="img/calendar.png" alt="calendar">
@@ -265,6 +266,12 @@
 			</div>
 		</div>
 	</div>
+	<div id="modal01" style="border-radius: 11px;" class="w3-modal" onclick="this.style.display='none'">
+		<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+		<div class="w3-modal-content w3-animate-zoom">
+		  <img id="img01" style="width:100%; ">
+		</div>
+	  </div>
 
 
 	<!-- footer -->
