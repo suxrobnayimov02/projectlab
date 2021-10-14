@@ -1319,13 +1319,40 @@ input {
 .management {
     margin-bottom: 100px;
 }
-.managenet-items {
-    display: flex;
+.managemet-items {
+    display: block;
     justify-content: space-between;
 }
 .management-list {
-    width: 30%;
-    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    background-color: #f5f8fb;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.card {
+    background-color: #f5f8fb;
+    border: none;
+    margin-top: 12px;
+}
+.management-info {
+    margin-left: 50px;
+}
+.biographicalInfo-btn {
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    border: 1px solid #0068B2;
+    color: #0068B2;
+    background-color: #e1ebff;
+}
+.management-info-items {
+    display: flex;
+    justify-content: space-between;
+}
+.manegementInfo-list {
+    padding-right: 50px;
 }
 
 .management-title {
