@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mehnat.uz</title>
+    <title>Projectlab.uz</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,117 +19,218 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 </head>
 
 <body>
-    <div id="home" class="navbar ">
+    <div id="home" class="navbar " style="position: relative;">
         <div class="nav-gradient">
-            <div class="container gradient-bac">
-                <div class="navbar-info">
-                    <div class="nav">
-                        <a href="index.html">
-                            <img class="logo-homePage" style="width: 190px;" src="img/logotip.svg" alt="logotip">
-                            <img src="img/logo(mehnat).svg" class="logo-responsive">
-                        </a>
+            <div class=" gradient-bac">
+
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2">
+            
+                        </button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
                     </div>
-                    <div class="navbar-list ">
-                        <ul id="myLinks" class="navbar-items">
-                            <li class="navbar-link">
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button"
-                                        id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Центр
-                                    </button>
-                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                                        <li><a class="dropdown-item active" href="main.html">- О нас</a></li>
-                                        <li><a class="dropdown-item" href="#">- Руководство</a></li>
-                                        <li><a class="dropdown-item" href="komanda.html">- Наша команда</a></li>
-                                        <li><a class="dropdown-item" href="#">- Структура</a></li>
-                                        <li><a class="dropdown-item" href="openData.html">- Открытые данные</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="navbar-link ">
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button"
-                                        id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Проекты
-                                    </button>
-                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                                        <li><a class="dropdown-item active" href="main.html">- Международный</a></li>
-                                        <li><a class="dropdown-item" href="#">- Национальный</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="navbar-link">
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button"
-                                        id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Пресс-центр
-                                    </button>
-                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                                        <li><a class="dropdown-item active" href="main.html">- Новости</a></li>
-                                        <li><a class="dropdown-item" href="#">- Сми о наc</a></li>
-                                        <li><a class="dropdown-item" href="komanda.html">- Фотогалерея</a></li>
-                                        <li><a class="dropdown-item" href="komanda.html">- Видео</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="navbar-link">
-                                <a class="numbers" href="#contact">Контакты</a>
-                            </li>
-                            <li class="navbar-link navbar-langue">
-                                <select class="custom-select " aria-label="Default select example">
-                                    <option selected value="1"><a href="">Ру</a></option>
-                                    <option value="2"><a href="">En</a></option>
-                                    <option value="3"><a href="">O'zb</a></option>
-                                </select>
-                            </li>
-                            <li class="navbar-lin hamburger">
-                                <div id="myNav" style="background-color: black;" class="overlay">
-                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                    <div class="overlay-content">
-                                        <a href="komanda.html">Карьера</a>
-                                        <a href="news.html">Нормативно правовые акты</a>
-                                        <a href="#">Логотип</a>
-                                        <a href="#">Контакты</a>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active carousel-item1" data-bs-interval="3000">
+                            <img src="img/i4-min.svg" style="object-fit: cover;" class="d-block">
+                            <!-- <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div> -->
+                        </div>
+                        <div class="carousel-item carousel-item2" data-bs-interval="3000">
+                            <img src="img/i3-min.svg" style="object-fit: cover;" class="d-block">
+                            <!-- <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div> -->
+                        </div>
+                        <div class="carousel-item carousel-item3" data-bs-interval="3000">
+                            <img src="img/i2-min.svg" style="object-fit: cover;" class="d-block">
+                            <!-- <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div> -->
+                        </div>
+                        <div class="carousel-item carousel-item4" data-bs-interval="3000">
+                            <img src="img/i1-min.svg" style="object-fit: cover;" class="d-block">
+                            <div class="carousel-caption d-none d-md-block">
+                                <!-- <div class="container gradient-bac">
+                                    <h2 class="nav_text">Центр управления проектами <br> в сфере труда</h2>
+                                    <div class="navbar-text">
+                                        <a href="main.html" class="work">О нас</a>
+                                        <a href="" class="contact">Свяжитесь с нами</a>
                                     </div>
-                                </div>
-                            </li>
-                            <span style="font-size:23px;cursor:pointer" onclick="openNav()">&#9776;</span>
-                           <li class="navbar-link">
-                            <div id="myOverlay" class="overlaySearch">
-                                <span class="search-closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
-                                <div class="overlaysearch-content">
-                                  <form class="search-btn" action="/index.html">
-                                    <input type="text" placeholder="Search.." name="search">
-                                    <button type="submit"><i class="fa fa-search"></i></button>
-                                  </form>
-                                </div>
-                              </div>
-                              <button class="openBtn" onclick="openSearch()"><i class="fa fa-search"></i></button>
-                           </li>
-                        </ul>
+                                </div> -->
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <h2 class="nav_text">Центр управления проектами <br> в сфере труда</h2>
-                <div class="navbar-text">
-                    <a href="main.html" class="work">О нас</a>
-                    <a href="" class="contact">Свяжитесь с нами</a>
                 </div>
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="position-text">
+            <h2 class="nav_text">Центр управления проектами <br> в сфере труда</h2>
+            <div class="navbar-text">
+                <a href="main.html" class="work">О нас</a>
+                <a href="" class="contact">Свяжитесь с нами</a>
+            </div>
+        </div>
+    </div>
+    
+   
+    <nav id="header" class="navbar-light bgLight fixed-top">
+        <div class="container">
+            <div class="container-fluid">
+                <div class="nav">
+                    <a href="index.html">
+                        <img class="logo-homePage" style="width: 180px;" src="img/logotip.svg" alt="logotip">
+                        <img src="img/logo(mehnat).svg" class="logo-responsive">
+                    </a>
+                </div>
+                <div class="navbar-list ml-3">
+                    <ul id="myLinks" class="navbar-items">
+                        <li class="navbar-link">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Центр
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item active" href="main.html">- О нас</a></li>
+                                    <li><a class="dropdown-item" href="#team">- Руководство</a></li>
+                                    <li><a class="dropdown-item" href="komanda.html">- Наша команда</a></li>
+                                    <li><a class="dropdown-item" href="#">- Структура</a></li>
+                                    <li><a class="dropdown-item" href="openData.html">- Открытые данные</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navbar-link ">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Проекты
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item active" href="main.html">- Международный</a></li>
+                                    <li><a class="dropdown-item" href="#">- Национальный</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navbar-link">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Пресс-центр
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item active" href="main.html">- Новости</a></li>
+                                    <li><a class="dropdown-item" href="#">- Сми о наc</a></li>
+                                    <li><a class="dropdown-item" href="all.html">- Медиа</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navbar-link">
+                            <a class="numbers" style="font-weight: 500;" href="#contact">Контакты</a><i
+                                style="color: white; padding-left: 20px; font-size: 20px;">|</i>
+                        </li>
+                        <li class="navbar-link navbar-langue">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="img/ru-flag.svg" alt="">
+                                    <a href=""> Русский</a>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark langueList"
+                                    aria-labelledby="dropdownMenuButton2">
+                                    <li class="dropList">
+                                        <img src="img/en-flag.svg" alt="">
+                                        <a href="">English</a>
+                                    </li>
+                                    <li class="dropList">
+                                        <img src="/img/uz-flag.svg" alt="">
+                                        <a href=""> O'zbekcha</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <!-- <i class="navbar-toggler-icon"></i> -->
+                            <span
+                                style="font-size:23px;cursor:pointer; color: white; border: none; outline: none;">&#9776;</span>
+                        </button>
+                    </ul>
+                </div>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <div class="offcanvas-list">
+                            <img src="img/logo-footer.svg" alt="">
+                        </div>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Карьера</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Нормативно правовые акты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Логотип</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Контакты</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
     <!-- <div class="home-slider">
         <video id="videoHome" class="home-slider _autoplay_vid"autoplay muted loop id="myVideo" poster="https://ssv.uz/assets/public/images/banner1.jpg"> 
             <source src="img/video1.mp4" type="video/mp4">
         </video>
     </div> -->
-   
+
     <!-- auto layout -->
     <div class="layout">
         <div class="container">
@@ -156,80 +256,35 @@
             </div>
         </div>
     </div>
+    <hr class="footer-line">
     <!-- biz haqimizda -->
-    <div id="bizhaqimizda" class="about-info">
+    <!-- <div id="bizhaqimizda" class="about-info">
         <div class="container">
             <div class="about">
                 <div class="about-text">
-                    <h3>О нас</h3>
-                    <p class="about-us-text" data-aos="fade-up">ООО «Центр управления проектами в сфере труда»
-                        является подведомственной
-                        организацией при Министерстве Занятости и трудовых отношений Республики Узбекистан, который
-                        занимается: Разработкой проектов определенных Министерством занятости и трудовых отношений
-                        направленных на улучшение системы...</p>
+                    <div class="text-imageInfo">
+                        <h3>О нас</h3>
+                        <h4 class="about-us-text">Центр управления проектами в сфере труда</h4>
+                    </div>
                     <div class="accordion" id="accordionExample" data-aos="fade-up">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Команда с профессиональными навыками
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall via CSS transitions. just about any HTML
-                                    can go within the <code>.accordion-body</code>, though the transition does limit
-                                    overflow.
-                                </div>
-                            </div>
+                        <div class="main-info">
+                            <img class="leftImg" src="img/leftimg.jpg" alt="">
+                            <img class="rightImg" src="/img/rightimg.png" alt="">
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Высококлассное выполнение проектов
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall via CSS transitions. just about any HTML
-                                    can go within the <code>.accordion-body</code>, though the transition does limit
-                                    overflow.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Своевременная сдача вашего проекта
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall via CSS transitions. just about any HTML
-                                    can go within the <code>.accordion-body</code>, though the transition does limit
-                                    overflow.
-                                </div>
-                            </div>
+                        <div class="leftImage-text">
+                            <h4 class="aboutInfo-text textColor">Основные направления цифровых реформ на центральном
+                                рынке труда:</h4>
+                            <p class="aboutInfo-text textList"> Мы создаем эффективные и прозрачные механизмы разработки
+                                и реализации
+                                информационно-коммуникационных проектов в сфере занятости и трудовых отношений, а также
+                                обеспечиваем проведение качественной экспертизы проектов, проектной и технической
+                                документации в данной сфере.</p>
                         </div>
                     </div>
                 </div>
-                <div class="about-image" data-aos="fade-up">
-                    <img src="img/Group321.png" alt="Group321">
-                </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- services -->
     <div class="services" id="services">
         <div class="container">
@@ -239,16 +294,16 @@
             </div>
             <div class="services-items-list">
                 <div class="services-list">
-                    <div class="services-items devolopment-shadow"  data-aos="fade-up">
+                    <div class="services-items devolopment-shadow" data-aos="fade-up">
                         <a href=""><img src="img/Frame578.png" alt="Group"></a>
-                        <p  class="web-dev">Веб разработка</p>
+                        <p class="web-dev">Веб разработка</p>
                         <hr class="line1">
-                        <p  class="web-dev-text">Мы создаем приложения, которые работают для вашего бизнеса и
+                        <p class="web-dev-text">Мы создаем приложения, которые работают для вашего бизнеса и
                             ваших
                             пользователей. Будь то сложная корпоративная платформа и серверная база данных, адаптивное
                             веб-приложение или маркетинговый сайт...</ф>
                     </div>
-                    <div class="services-items dizayn-shadow"  data-aos="fade-up">
+                    <div class="services-items dizayn-shadow" data-aos="fade-up">
                         <a href=""><img src="img/Frame5781.png" alt="Group1"></a>
                         <p class="web-dev">Веб дизайн</p>
                         <hr class="line2">
@@ -257,8 +312,7 @@
                             мобильных приложений и веб-продуктов, которые увеличивают конверсию, снижают затраты на
                             обслуживание и создают согласованный пользовательский...</p>
                     </div>
-                    <div class="services-items android-shadow" data-aos="fade-up"
-                   >
+                    <div class="services-items android-shadow" data-aos="fade-up">
                         <a href=""><img src="img/Frame5782.png" alt="Vector"></a>
                         <p class="web-dev">Android разработка</p>
                         <hr class="line3">
@@ -268,8 +322,7 @@
                             А когда дело доходит до кроссплатформенных решений, наш опыт и технологии обеспечивают
                             хороший баланс между...</p>
                     </div>
-                    <div class="services-items ios-shadow" data-aos="fade-up"
-                    >
+                    <div class="services-items ios-shadow" data-aos="fade-up">
                         <a href=""><img src="img/Frame5783.png" alt="Vector"></a>
                         <p class="web-dev">IOS разработка</p>
                         <hr class="line4">
@@ -341,8 +394,7 @@
                 <h3>Вакансии</h3>
                 <p>Вакансии в нашей студии</p>
             </div>
-            <div class="vacancies-items" data-aos="fade-up"
-            data-aos-duration="4000">
+            <div class="vacancies-items" data-aos="fade-up" data-aos-duration="4000">
                 <div class="vacancies-list">
                     <a class="menejer" href="">Менеджер</a>
                     <a class="vacanciesInfo">Мы ищем в команду Проектного Менеджера для работы над сайтами и сервисами
@@ -481,19 +533,24 @@
             <ul class="portfolio-items">
                 <li class="portfolio-list" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
-                    <img src="img/portfolio2.png" alt="portfolio">
-                    <div class="portfolio-text1">
-                        <h4>Ёшлар дафтари Электрон платформаси</h4>
-                        <h5>Веб-дизайн и программирование</h5>
-                    </div>
+                    <a href="https://yoshlardaftari.uz/admin/#/" style="transition:all .3s; color: #333;">
+                        <img src="img/portfolio2.png" alt="portfolio">
+                        <div class="portfolio-text1">
+                            <h4>Ёшлар дафтари Электрон платформаси</h4>
+                            <h5>Веб-дизайн и программирование</h5>
+                        </div>
+                    </a>
                 </li>
                 <li class="portfolio-list" data-aos="flip-right" data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
-                    <img src="img/portfolio1.png" alt="portfolio1">
-                    <div class="portfolio-text2">
-                        <h4>Labor Migrant uz</h4>
-                        <h5>Мобильный дизайн и программирование</h5>
-                    </div>
+                    <a href="https://labormigration.uz/" style="transition:all .3s; color: #333;">
+                        <img src="img/portfolio1.png" alt="portfolio1">
+                        <div class="portfolio-text2">
+                            <h4>Labor Migrant uz</h4>
+                            <h5>Мобильный дизайн и программирование</h5>
+                        </div>
+                    </a>
+
                 </li>
 
             </ul>
@@ -514,7 +571,7 @@
                         активности и профессиональное обучение бедных и безработных граждан, а также обеспечение
                         занятости населения”</a>
                     <div class="vacancies-date">
-                        <a href="https://lex.uz/docs/4945780">05/04/2021 <span>ПП-4084</span></a>      
+                        <a href="https://lex.uz/docs/4945780">05/04/2021 <span>ПП-4084</span></a>
                     </div>
                 </div>
                 <div class="vacancies-list normative-list">
@@ -544,28 +601,111 @@
                 <div class="connect-info" data-aos="flip-up">
                     <h4>Связаться с нами.</h4>
 
-                    <input type="text" placeholder="ФИО*"><br>
+                    <input type="text" placeholder="ФИО*" aria-label="Jeff Fisher" required
+                        data-msg="Please enter your name."><br>
 
-                    <input type="email" placeholder="Почта*">
+                    <input type="email" placeholder="Почта*" aria-label="jackwayley@gmail.com" required
+                        data-msg="Please enter a valid email address.">
 
-                    <input type="tel" placeholder="Телефон*"><br>
+                    <input type="tel" placeholder="Телефон*" aria-label="1-800-643-4500" required
+                        data-msg="Please enter a valid phone number."><br>
 
                     <textarea class="textarea" name="text" cols="47" rows="5"
                         placeholder="Оставьте ваше сообщение здесь..."></textarea><br>
-                    <a href="" class="btn-submit" type="submit"><span> Отправить сообщение</span></a>
+                    <a href="" class="btn-submit" type="submit"><span> Отправить сообщение <i
+                                class="material-icons">&#xe163;</i></span></a>
                 </div>
-                <div class="connect-text">
-                    <h6><i class="fa fa-phone" style="padding-right: 7px;"></i> Приёмная:</h6>
-                    <p>+998 71 202 15 05</p>
-                    <h6><i class="fa fa-user" style="padding-right: 7px;"></i> Почтовый адрес:</h6>
-                    <p>projectlab@gmail.com</p>
-                    <h6><i class="material-icons">&#xe55f;</i> Адрес:</h6>
-                    <p>Проспект Амира Темура 62, <br>
-                        Ташкент, Узбекистан</p>
+                <div class="footer-contact__item">
+                    <!-- <div class="footer-contact__row">
+                        <div class="connect-text">
+                            <h6><i class="fa fa-phone" style="padding-right: 7px;"></i> Приёмная:</h6>
+                            <p>+998 71 202 15 05</p>
+                            <h6><i class="material-icons" style="padding-right: 7px;">&#xe158;</i> Почтовый
+                                адрес:</h6>
+                            <p>projectlab@gmail.com</p>
+                            <h6><i class="material-icons">&#xe55f;</i> Адрес:</h6>
+                            <p>Проспект Амира Темура 62, <br>
+                                Ташкент, Узбекистан</p>
+                        </div>
+                    </div> -->
                 </div>
             </div>
+            <div class="maps-info">
+                <section data-v-ab99b942="" class="regional-branches">
+                    <div class="logo-bg">
+                        <div class="info">
+                            <div class="footer-contact__item">
+                                <div class="footer-contact__row">
+                                    <form action="">
+                                        <span class="maps-searchInput">
+                                            <i class="material-icons" style="color: red;">&#xe55f;</i>
+                                            <input class="searchInput" type="search" placeholder="Поиск мест и адресов">
+                                            <i class="fa fa-search"></i>
+                                        </span>
+                                    </form>
+                                    <ul class="maps-items">
+                                        <li class="maps-itemsList">
+                                            <i class="material-icons">&#xe52e;</i><br>
+                                            <a href="">Направления</a>
+                                        </li>
+                                        <li class="maps-itemsList">
+                                            <i class="material-icons">&#xe867;</i><br>
+                                            <a href="">Сохранить</a>
+                                        </li>
+                                        <li class="maps-itemsList">
+                                            <i class="material-icons">&#xe53b;</i><br>
+                                            <a href="">Слои</a>
+                                        </li>
+                                        <li class="maps-itemsList">
+                                            <i class="fa">&#xf1e0;</i><br>
+                                            <a href="">Делиться</a>
+                                        </li>
+                                    </ul>
+                                    <hr class="footer-line">
+                                    <div class="addres-info">
+                                        <p class="addresP"><i class="material-icons"
+                                                style="padding-right: 15px;">&#xe0c8;</i> Проспект Амира Темура
+                                            62,
+                                            Ташкент, Узбекистан </p>
+                                    </div>
+                                    <div class="addres-info">
+                                        <p><i class="material-icons" style="padding-right: 15px;">&#xe8b5;</i> Соат 9:00
+                                            дан 18:00 гача</p>
+
+                                    </div>
+                                    <div class="addres-info">
+                                        <p><i class="fa fa-phone"
+                                                style="padding-right: 15px;font-size: 24px; padding-left: 8px;"></i>
+                                            +998 71 202 15 05</p>
+                                    </div>
+                                    <div class="addres-info">
+                                        <p><i class="material-icons" style="padding-right: 15px;">&#xe158;</i> Почтовый
+                                            адрес:</p>
+                                    </div>
+                                    <button class="editBtn"><i class="material-icons">&#xe150;</i>Edit</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="regional-map d-flex align-items-center justify-content-center">
+                                    <iframe class="maps-list"
+                                        src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae623a4109a882bbae54bda38a1bd2fcab4716c67c5ddcfed0b701b145230c21b&amp;source=constructor"
+                                        width="950px" frameborder="0">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
         </div>
     </div>
+    </div>
+
     <!-- footer -->
     <hr class="footer-line">
     <div class="footer">
@@ -577,7 +717,7 @@
                             <img style="width: 100%;" src="img/logo-footer.svg" alt="">
                         </a>
                     </div>
-                   <p>© Министерство Занятости и <br> трудовых отношений  Республики <br> Узбекистан</p>
+                    <p>© Министерство Занятости и <br> трудовых отношений Республики <br> Узбекистан</p>
                 </li>
                 <li class="footer-items">
                     <h5>Адрес</h5>
@@ -585,7 +725,7 @@
                         Ташкент, Узбекистан</p>
                     <h5>Мы в социальных сетях</h5>
                     <div class="footer-items-image">
-                        <a href=""><img src="img/svgexport-8.png" alt="svgexport-8"></a>
+                        <a href="https://www.facebook.com/MarkazMehnat"><img src="img/svgexport-8.png" alt="svgexport-8"></a>
                     </div>
                 </li>
                 <li class="footer-nav-items">
@@ -607,6 +747,7 @@
     <script>
         feather.replace()
     </script>
+
 
 
 
@@ -649,8 +790,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
 
 
@@ -699,6 +840,29 @@
             }
         }
     </script>
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("header").style.background = "#004A80";
+            } else {
+                document.getElementById("header").style.background = "";
+            }
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("header").style.color = "white";
+            } else {
+                document.getElementById("header").style.color = "";
+            }
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("header").style.opacity = "1";
+            } else {
+                document.getElementById("header").style.opacity = "";
+            }
+        }
+    </script>
+
+
 
 </body>
 

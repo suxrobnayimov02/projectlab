@@ -29,6 +29,29 @@ function openSearch() {
     document.getElementById("myOverlay").style.display = "block";
   }
   
-  function closeSearch() {
+function closeSearch() {
     document.getElementById("myOverlay").style.display = "none";
-  }
+}
+
+
+
+
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("header").style.background = "#004A80";
+    } else {
+        document.getElementById("header").style.background = "";
+    }
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("header").style.color = "white";
+    } else {
+        document.getElementById("header").style.color = "";
+    }
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("header").style.opacity = "1";
+    } else {
+        document.getElementById("header").style.opacity = "";
+    }
+}
