@@ -27,28 +27,7 @@ a {
     justify-content: space-between;
     background-color: #005fa4;
 }
-/* .home-slider {
-    position: relative;
-    width: 100%;
-    height: 600px;
-    background-size: cover;
-    background-position: center;  
-}
-.home-slider video {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: center;
-    object-position: center;
-} */
-/* .nav_text {
-    position: absolute;
-    top: 20%;
-} */
 .navbar-text {
-    /* top: 60%;
-    position: absolute; */
     text-align: center;
 }
 .navbar-text p {
@@ -58,70 +37,30 @@ a {
 .navbar {
     width: 100%;
     margin: 0 auto;
-    /* background-image:url("img/background-img.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
     height: 800px;
     color: white;
     padding: 0px;
     
 }
-/*.carousel-item1 {
-    width: 100%;
-    margin: 0 auto;
-    height: 800px;
-    background-image:url("img/i4-min.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.carousel-item2 {
-    width: 100%;
-    margin: 0 auto;
-    height: 800px;
-    background-image:url("img/i3-min.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
- .carousel-item3 {
-    width: 100%;
-    margin: 0 auto;
-    height: 800px;
-    background-image:url("img/i2-min.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.carousel-item4 {
-    width: 100%;
-    margin: 0 auto;
-    height: 800px;
-    background-image:url("img/i1-min.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-} */
 .komnavbar {
     width: 100%;
     margin: 0px auto;
-    background-image:url("img/jamoa1.jpg");
+    background-image:url("img/ezgif.com.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 630px;
+    height: 800px;
     color: white;
     padding: 0px;
 }
-.navbar-two {
+.navbar-two, .project-nav {
     width: 100%;
     margin: 0 auto;
-    background-image:url("img/newsbac.png");
+    background-image:url("img/ezgif.com.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 630px;
+    height: 800px;
     color: white;
 }
 .nav-title {
@@ -131,19 +70,17 @@ a {
 .fotoNavbar {
     width: 100%;
     margin: 0px auto;
-    background-image:url("img/jamoa1.jpg");
+    background-image:url("img/ezgif.com.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 630px;
+    height: 800px;
     color: white;
     padding: 0px;
 }
 .fotoGradient {
     width: 100%;
-    background: #000F1A;
-    opacity: 0.7;
-    height: 630px;
+    height: 800px;
 }
 
 .gradient-bac {
@@ -152,8 +89,6 @@ a {
 }
 .nav-gradient {
     width: 100%;
-    /* background-color: #1f3c88; */
-    background: #000F1A;
     height: 800px;
 }
 .carousel {
@@ -162,14 +97,10 @@ a {
 }
 .main-gradient {
     width: 100%;
-    background: #000F1A;
-    opacity: 0.8;
-    height: 630px;
+    height: 800px;
 }
 .komgradient {
-    background: #000F1A;
-    opacity: 0.8;
-    height: 630px;
+    height: 800px;
     width: 100%;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -353,7 +284,7 @@ option {
     color: white;
 }
 .nav_text {
-    padding:250px 0px 30px 0px ;
+    padding:280px 0px 30px 0px ;
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
@@ -440,7 +371,7 @@ option {
 .about-info{
     width: 100%;
     margin: 0 auto;
-    background-image: url("img/bacimage.svg");
+    background-image: url("img/ezgif.com.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1714,8 +1645,15 @@ input {
 #scroll-to-top:hover svg{
     color: #fff;
 }
+.nav-opendata {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("img/ezgif.com.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .nav-opendata, .nav-opendata-gradient {
-    height: 600px;
+    height: 800px;
 }
 .openData-begin {
     margin: 40px auto;
