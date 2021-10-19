@@ -371,7 +371,7 @@ option {
 .about-info{
     width: 100%;
     margin: 0 auto;
-    background-image: url("img/ezgif.com.png");
+
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -595,7 +595,7 @@ option {
     margin: 30px auto;
 }
 .project {
-    margin: 0 auto;
+    margin: 55px auto;
     text-align: center;
 }
 .project-image, .undp-logo {
