@@ -535,7 +535,6 @@ option {
     flex-wrap: wrap;
 }
 .services-items {
-    text-align: center;
     width: 48%;
     background: #FFFFFF;
     box-shadow: 0px 2px 38px rgba(4, 147, 237, 0.11);
@@ -550,22 +549,15 @@ option {
 
 .web-dev  {
     display: block;
-    color: white;
+    color: #004A80;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 1.4;
     padding: 15px 10px;
-    text-align: center;
-    background-color: #004A80;
-    margin: 20px auto;
-    width: 350px;
-    border: none;
-    border-radius: 7px;
+    background-color: transparent;
 }
-.web-dev:hover, .web-dev-text:hover {
-    color: white;
-}
+
 .web-dev-text {
     color: #004A80;
     font-style: normal;
@@ -871,7 +863,7 @@ option {
     border: 1px solid rgba(204, 234, 255, 1);
     border-radius: 16px;
     margin: 20px 0;
-    
+    height: 400px;
 }
 .news-list:hover {
     box-shadow: 0px 0px 38px 1px rgba(0,104,178, 0.11);
@@ -881,12 +873,18 @@ option {
 .news-list-image {
     width: 100%;
 }
-.news-list h4 {
-    font-size: 19px;
+.newsImage {
+    display: flex;
+    width: auto;
+    margin: 40px auto;
+}
+.newsInfo {
+    font-size: 20px;
     line-height: 1.5;
     text-align: left;
-    padding: 20px 25px 40px;
+    margin: 20px 25px 40px 0;
     color: #00264D;
+    font-weight: 600;
 }
 .news-list h5 {
     font-style: normal;
@@ -1308,6 +1306,11 @@ input {
     font-size: 45px;
     color:  #004A80;
     padding: 40px 0px 45px;
+}
+.allNews-title {
+    font-size: 45px;
+    color:  #004A80;
+    padding: 0px 0px 45px;
 }
 
 .news-items {
