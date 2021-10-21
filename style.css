@@ -535,8 +535,8 @@ option {
     flex-wrap: wrap;
 }
 .services-items {
+    text-align: center;
     width: 48%;
-    height: 330px;
     background: #FFFFFF;
     box-shadow: 0px 2px 38px rgba(4, 147, 237, 0.11);
     border-radius: 4px;
@@ -550,15 +550,21 @@ option {
 
 .web-dev  {
     display: block;
-    color: #004A80;
+    color: white;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 1.4;
-    padding: 15px 0px;
+    padding: 15px 10px;
+    text-align: center;
+    background-color: #004A80;
+    margin: 20px auto;
+    width: 350px;
+    border: none;
+    border-radius: 7px;
 }
 .web-dev:hover, .web-dev-text:hover {
-    color: #004A80;
+    color: white;
 }
 .web-dev-text {
     color: #004A80;
