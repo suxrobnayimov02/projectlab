@@ -105,7 +105,7 @@
         display: block;
     }
     .container {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
     }
@@ -272,7 +272,12 @@
         display: none;
     }
     .maps-items  {
-        justify-content: space-between;
+        width: 80%;
+       display: flex;
+       justify-content: space-between;
+    }
+    .responsive-input {
+        display: none;
     }
     .regional-branches {
         height: 730px;
@@ -290,13 +295,32 @@
         width: 220px;
     }
     .maps-searchInput {
-        width: 220px;
-        margin: 20px auto;
+        width: 270px;
+        margin: 20px 10px;
         box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 6px 20px rgb(0 0 0 / 4%);
     }
     .table-bordered {
         overflow-x: auto;
         width: 100%;
+    }
+    .nav-item{   
+        display: flex;
+        justify-content: center;
+    }
+    .management-list, .management-info-items {
+        display: block;
+    }
+    .manegementInfo-list {
+        padding: 20px 0;
+    }
+    .management-title {
+        font-size: 30px;
+    }
+    .btn-primary {
+        height: auto;
+    }
+    .management-info {
+        margin: 20px 0;
     }
 }
 
