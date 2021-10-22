@@ -1,9 +1,13 @@
-@media screen and (max-width:992px){
+@media screen and (max-width:1024px){
     .container, .responsive-media, .portfolio-list,
     .about-us-text, .accordion, .services-items,
-    .vacancies-list, .news-list, .portfolio-list img,
+    .vacancies-list, .portfolio-list img,
     .connect-info  {
         width: auto;
+    }
+    .news-list {
+        width: 80%;
+        margin: 30px auto;
     }
     .auto-layout-text {
         width: 20%;
@@ -74,25 +78,45 @@
         text-align: center;
     }
     canvas, .maps-list {
-        width: 390px;
+        width: 260px;
         height: 700px;
     }
     .fa-search {
         padding: 0px 6px;
     }
-    .logo-bg {
+    /* .logo-bg {
+        display: block;
         width: 100%;
         margin: 0 auto;
     }
+    .maps-list {
+        height: 400px;
+    } */
+    .regional-branches {
+        height: auto;
+    }
     .info {
-        width: 350px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .editBtn {
+        margin: 20px auto;
+    }
+    .maps-itemsList {
+        width: 34%;
     }
     .regional-map {
         overflow-x: auto;
-        width: 350px;
+        width: 260px;
     }
     .leftImg, .rightImg {
         width: 345px;
+        text-align: center;
+    }
+    .position-text {
+        position: absolute;
+        top: 0%;
+        right:15%;
         text-align: center;
     }
 }
@@ -148,6 +172,8 @@
     }
     .information-text, .nav_text {
         font-size: 35px;
+        padding: 140px 0 0;
+        text-align: center;
     }
     .contact {
         margin-top: 20px;
@@ -322,5 +348,63 @@
     .management-info {
         margin: 20px 0;
     }
+    .komnavbar {
+        width: 100%!important;
+        margin: 0px auto;
+        background-image:url("img/imgBackground1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        color: white;
+        padding: 0px;
+    }
+    .navbar-two {
+        width: 100%!important;
+        margin: 0 auto;
+        background-image:url("img/imgBackground1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        color: white;
+    }
+    .project-nav {
+        width: 100%!important;
+        margin: 0 auto;
+        background-image:url("img/imgBackground3.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        color: white;
+    }
+    .nav-gradient {
+        width: 100%!important;
+        height: 500px;
+    }
+    .fotoNavbar {
+        width: 100%!important;
+        margin: 0px auto;
+        background-image:url("img/ezgif.com.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        color: white;
+        padding: 0px;
+    }
+    .position-text {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        height: 555px
+    }
+    .news-list h4 {
+        padding-bottom: 30px;
+    }
 }
-
