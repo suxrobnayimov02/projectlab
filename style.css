@@ -2195,6 +2195,7 @@ tr {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 100px 0;
 }
 .opendata-list {
     width: 31%;
@@ -2206,6 +2207,7 @@ tr {
     justify-content: space-between;
 }
 .opendata-list h4 {
+    font-size: 21px;
     padding: 25px 0;
 }
 .file-size {
@@ -2215,3 +2217,7 @@ tr {
 .file-size span {
     font-size: 17px;
 }
+
+
+
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
